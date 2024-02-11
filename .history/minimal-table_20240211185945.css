@@ -1,0 +1,169 @@
+html {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-wrap: pretty;
+  
+    
+}
+
+h1 {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid rgb(200, 200, 200);
+    letter-spacing: 1px;
+    text-align: left;
+    font-size: 0.6rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+td,
+th {
+    border: 1px solid rgb(190, 190, 190);
+    padding: 14px 20px;
+    <tr>
+    <th rowspan="4" colspan="2" scope="rowgroup">Aardse planeten</th>
+    <th scope="row">Mercurius</th>
+    <td>0.330</td>
+    <td>4,879</td>
+    <td>5427</td>
+    <td>3.7</td>
+    <td>4222.6</td>
+    <td>57.9</td>
+    <td>167</td>
+    <td>0</td>
+    <td>Dichtst bij de zon</td>
+    </tr>
+    <tr>
+    <th scope="row">Venus</th>
+    <td>4.87</td>
+    <td>12,104</td>
+    <td>5243</td>
+    <td>8.9</td>
+    <td>2802.0</td>
+    <td>108.2</td>
+    <td>464</td>
+    <td>0</td>
+    <td></td>
+    </tr>
+    <tr>
+    <th scope="row">Aarde</th>
+    <td>5.97</td>
+    <td>12,756</td>
+    <td>5514</td>
+    <td>9.8</td>
+    <td>24.0</td>
+    <td>149.6</td>
+    <td>15</td>
+    <td>1</td>
+    <td>Onze wereld</td>
+    </tr>
+    <tr>
+    <th scope="row">Mars</th>
+    <td>0.642</td>
+    <td>6,792</td>
+    <td>3933</td>
+    <td>3.7</td>
+    <td>24.7</td>
+    <td>227.9</td>
+    <td>-65</td>
+    <td>2</td>
+    <td>De rode planeet</td>
+    </tr>
+    <tr>
+    <th rowspan="4" scope="rowgroup">Joviaanse planeten</th>
+    <th rowspan="2" scope="rowgroup">Gasreuzen</th>
+    <th scope="row">Jupiter</th>
+    <td>1898</td>
+    <td>142,984</td>
+    <td>1326</td>
+    <td>23.1</td>
+    <td>9.9</td>
+    <td>778.6</td>
+    <td>-110</td>
+    <td>67</td>
+    <td>De grootste planeet</td>
+    </tr>
+    <tr>
+    <th scope="row">Saturnus</th>
+    <td>568</td>
+    <td>120,536</td>
+    <td>687</td>
+    <td>9.0</td>
+    <td>10.7</td>
+    <td>1433.5</td>
+    <td>-140</td>
+    <td>62</td>
+    <td></td>
+    </tr>
+    <tr>
+    <th rowspan="2" scope="rowgroup">IJsreuzen</th>
+    <th scope="row">Uranus</th>
+    <td>86.8</td>
+    <td>51,118</td>
+    <td>1271</td>
+    <td>8.7</td>
+    <td>17.2</td>
+    <td>2872.5</td>
+    <td>-195</td>
+    <td>27</td>
+    <td></td>
+    </tr>
+    <tr>
+    <th scope="row">Neptunus</th>
+    <td>102</td>
+    <td>49,528</td>
+    <td>1638</td>
+    <td>11.0</td>
+    <td>16.1</td>
+    <td>4495.1</td>
+    <td>-200</td>
+    <td>14</td>
+    <td></td>
+    </tr>
+    <tr>
+    <th colspan="2" scope="row">Dwergplaneten</th>
+    <th scope="row">Pluto</th>
+    <td>0.0146</td>
+    <td>2,370</td>
+    <td>2095</td>
+    <td>0.7</td>
+    <td>153.3</td>
+    <td>5906.4</td>
+    <td>-225</td>
+    <td>5</td>
+    <td>Gedegradeerd tot dwergplaneet in 2006, maar dit blijft controversieel.</td>
+    </tr>
+}
+
+th {
+    background-color: rgb(235, 235, 235);
+}
+
+td {
+    text-align: right;
+}
+
+td:last-of-type {
+    text-align: start;
+    text-wrap: pretty;
+}
+
+tr:nth-child(even) td {
+    background-color: rgb(250, 250, 250);
+}
+
+tr:nth-child(odd) td {
+    background-color: rgb(245, 245, 245);
+}
+
+tbody tr:hover td {
+    background-color: rgb(235, 235, 235);
+}
+
+caption {
+    padding: 10px;
+}

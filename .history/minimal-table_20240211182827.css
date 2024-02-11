@@ -1,0 +1,57 @@
+html {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-wrap: pretty;
+    font-size: 0.8rem;
+    
+}
+
+h1 {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid rgb(200, 200, 200);
+    letter-spacing: 1px;
+    text-align: left;
+    font-size: 0.5rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+td,
+th {
+    border: 1px solid rgb(190, 190, 190);
+    padding: 10px 20px;
+   
+}
+
+th {
+    background-color: rgb(235, 235, 235);
+}
+
+td {
+    text-align: right;
+}
+
+td:last-of-type {
+    text-align: start;
+    text-wrap: none;
+}
+
+tr:nth-child(even) td {
+    background-color: rgb(250, 250, 250);
+}
+
+tr:nth-child(odd) td {
+    background-color: rgb(245, 245, 245);
+}
+
+tbody tr:hover td {
+    background-color: rgb(235, 235, 235);
+}
+
+caption {
+    padding: 10px;
+}
